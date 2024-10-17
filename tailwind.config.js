@@ -23,8 +23,8 @@ export default {
     },
     extend: {
       colors: {
-        primary: '#085484',
-        secondary: '#FEF3E3',
+        primary: '#032B44',
+        secondary: '#064D77',
       },
       boxShadow: {
         1: '0px 4px 30px rgba(0, 0, 0, 0.08)',
