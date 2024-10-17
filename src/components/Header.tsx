@@ -1,4 +1,3 @@
-import React from "react";
 import { FaUserCheck } from "react-icons/fa";
 import { IoIosHeartHalf } from "react-icons/io";
 import { IoCartOutline, IoMenu, IoSearchSharp } from "react-icons/io5";
