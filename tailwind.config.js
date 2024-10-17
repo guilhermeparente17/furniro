@@ -1,0 +1,36 @@
+/** @type {import('tailwindcss').Config} */
+export default {
+  content: [
+    "./index.html",
+    "./src/**/*.{js,ts,jsx,tsx}",
+  ],
+  theme: {
+    extend: {},
+    fontFamily: {
+      primary: 'Poppins',
+    },
+    container: {
+      padding: {
+        DEFAULT: '1rem',
+        lg: '2rem',
+      },
+    },
+    screens: {
+      sm: '640px',
+      md: '768px',
+      lg: '1024px',
+      xl: '1234px',
+    },
+    extend: {
+      colors: {
+        primary: '#085484',
+        secondary: '#FEF3E3',
+      },
+      boxShadow: {
+        1: '0px 4px 30px rgba(0, 0, 0, 0.08)',
+      },
+    },
+  },
+  plugins: [],
+}
+
